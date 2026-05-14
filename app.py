@@ -6,8 +6,8 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app, origins=[
-    "https://loan-eligibility-prediction-website.vercel.app",
-    "http://localhost:3000" 
+    "http://localhost:3000",
+    "https://data-science-prediction-price-car-w.vercel.app"
 ])
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'models', 'model.pkl')
