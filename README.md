@@ -1,5 +1,10 @@
 # Prediction Price Car System
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange.svg)
+![Flask](https://img.shields.io/badge/Flask-API-lightgrey.svg)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black.svg)
+
 > Sistem prediksi harga mobil dengan algoritma Linear Regression yang disajikan melalui REST API Flask.
 
 Project ini dibuat untuk tugas akhir mata kuliah Data Science semester 6, dengan fokus implementasi end-to-end dari proses analisis data, training model, hingga serving model melalui API.
@@ -250,5 +255,5 @@ prediction-price-car-system/
 - `MODEL_PATH` di `app.py` menunjuk ke `models/model.pkl`.
 - Daftar fitur wajib prediksi ditetapkan pada konstanta `FEATURES` di `app.py`.
 - CORS pada Flask diizinkan untuk:
-  - `https://loan-eligibility-prediction-website.vercel.app`
+  - [data-science-prediction-price-car-w.vercel.app](https://data-science-prediction-price-car-w.vercel.app/)
   - `http://localhost:3000`
