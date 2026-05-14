@@ -5,7 +5,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "https://loan-eligibility-prediction-website.vercel.app",
+    "http://localhost:3000" 
+])
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'models', 'model.pkl')
 FEATURES = ['Engine_size', 'Horsepower', 'Wheelbase', 'Width',
