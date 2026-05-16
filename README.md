@@ -7,7 +7,7 @@
 
 > Sistem prediksi harga mobil dengan algoritma Linear Regression yang disajikan melalui REST API Flask.
 
-Project ini dibuat untuk tugas akhir mata kuliah Data Science semester 6, dengan fokus implementasi end-to-end dari proses analisis data, training model, hingga serving model melalui API.
+Project ini dibuat untuk final project mata kuliah Data Science semester 6, dengan fokus implementasi end-to-end dari proses analisis data, training model, hingga serving model melalui API.
 
 Model dilatih menggunakan dataset penjualan mobil (`Car_sales.xls`) dan memprediksi `Price_in_thousands` berdasarkan 8 fitur teknis kendaraan. Hasil prediksi dari model (dalam ribuan USD) dikonversi menjadi nilai USD pada endpoint API.
 
